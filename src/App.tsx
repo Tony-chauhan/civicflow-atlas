@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef, FormEvent } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import type { FormEvent } from 'react';
 import { Send, MapPin, Map, Route, CheckSquare, Gamepad2, BrainCircuit, Globe2 } from 'lucide-react';
 import { generateV2Response, type ChatMessage, type AppState } from './engine/CivicFlowEngine';
 import { cn } from './lib/utils';
